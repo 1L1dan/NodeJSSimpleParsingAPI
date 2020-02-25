@@ -1,0 +1,18 @@
+{
+  "apps": [
+    {
+      "name": "express-ts-api-boilerplate",
+      "script": "./build/index.js",
+      "watch": false,
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": 3223
+      },
+      "autorestart": true,
+      "instances": 0,
+      "log_date_format": "DD.MM.YYYY HH:mm Z",
+      "error_file": "/home/user/apps/express-ts-api-boilerplate/logs/pm2/error.log",
+      "out_file": "/home/user/apps/express-ts-api-boilerplate/logs/pm2/out.log"
+    }
+  ]
+}
